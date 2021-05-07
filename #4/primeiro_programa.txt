@@ -1,0 +1,12 @@
+package primeiroprograma;
+
+/**
+ * @author Marcelo
+ */
+public class Main {
+    public static void main (String[] args){
+        String s = "Olá Mundo!!!";
+        if (!s.contentEquals("Olá Mundo!!!")) System.out.println("Erro!");
+        System.out.print(s);
+    }
+}
